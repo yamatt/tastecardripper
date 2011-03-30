@@ -1,0 +1,18 @@
+{
+	"server":	"http://localhost:5984",
+	"database":	"tastecard",
+	"username":	"",
+	"password":	"",
+	"delay":	2,
+	"start":	1,
+	"delete":	true,
+	"restaurants":	"http://www.tastecard.co.uk/search.php",
+	"restaurant":	"http://www.tastecard.co.uk/_googlemaps/phpsqlsearch_genxml.php?restaurant=%s",
+	"imageurl":	"http://media.tastelondon.co.uk/images/imagesource.php?image=%s",
+	"regex":	{
+				"max_people":	"[0-9]+",
+				"card_use":	"(first)|(unlimited)",
+				"phone_before":	"(0)|(book)",
+				"deal":		"(50)|(241)"
+			}
+}
